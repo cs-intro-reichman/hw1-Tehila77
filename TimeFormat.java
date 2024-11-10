@@ -6,13 +6,13 @@ public class TimeFormat {
 		int hoursCorrect;
          if(hours<=12)
 		 { 
-			System.out.println( hours+":"+ minutes+"AM");
+			System.out.println( hours+":"+ minutes+" AM");
 		 }
 		 if(hours>12)
 			{
 				hoursCorrect=hours-12;
 				
-				System.out.println(hoursCorrect+":"+minutes+"PM");
+				System.out.println(hoursCorrect+":"+minutes+" PM");
 			}
 			
 	}
