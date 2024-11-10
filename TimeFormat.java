@@ -5,7 +5,7 @@ public class TimeFormat {
 		int minutes = Integer.parseInt(""+args[0].charAt(3) +args[0].charAt(4));
 		int hoursCorrect;
         
-         if(hours<=12)
+         if(hours<=11)
 		 { 
 			if (minutes<10)
 			{
