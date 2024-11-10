@@ -17,9 +17,9 @@ public class TimeFormat {
 		 { 
 			if (minutes<10)
 			{
-				System.out.println( hours+":0"+ minutes+" AM");
+				System.out.println( hours+":0"+ minutes+" PM");
 			}
-			else System.out.println("00:"+ minutes+" AM");
+			else System.out.println("00:"+ minutes+" PM");
 		 }
 		 if(hours>12)
 			{
