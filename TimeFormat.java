@@ -5,13 +5,21 @@ public class TimeFormat {
 		int minutes = Integer.parseInt(""+args[0].charAt(3) +args[0].charAt(4));
 		int hoursCorrect;
         
-         if(hours<=11)
+         if(hours<12)
 		 { 
 			if (minutes<10)
 			{
 				System.out.println( hours+":0"+ minutes+" AM");
 			}
 			else System.out.println( hours+":"+ minutes+" AM");
+		 }
+		 if(hours==12)
+		 { 
+			if (minutes<10)
+			{
+				System.out.println( hours+":0"+ minutes+" AM");
+			}
+			else System.out.println("00:"+ minutes+" AM");
 		 }
 		 if(hours>12)
 			{
